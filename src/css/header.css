@@ -1,0 +1,67 @@
+body {
+    background-color: #0d1117; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start; 
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px; 
+    margin-top: 5vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza tudo horizontalmente */
+}
+
+.logo {
+    width: 80px; 
+    height: auto;
+    margin-bottom: 1rem; /
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    background: linear-gradient(90deg, #8a63ff, #43e97b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 3rem;
+    margin: 0 0 1rem 0; /* Remove margens padrão e adiciona espaço embaixo */
+}
+
+h2 {
+    color: #1abc9c;
+    font-size: 1.2rem;
+    margin: 0 0 1.5rem 0; 
+    font-weight: normal;
+}
+
+.cta-text {
+    font-family: 'Verdana', sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    letter-spacing: 1px; /* Um pequeno espaçamento entre as letras */
+}
+
+p {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.5rem; 
+    text-align: center;
+    text-transform: uppercase; 
+    font-weight: bold;
+
+    /* O efeito de degradê (Gradient) */
+    background: linear-gradient(90deg, #8a63ff, #43e97b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    margin-top: 20px;
+}
